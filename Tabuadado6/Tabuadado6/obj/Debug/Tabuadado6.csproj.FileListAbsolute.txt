@@ -1,0 +1,7 @@
+C:\Users\2jdmtec\Desktop\Tabuadado6\Tabuadado6\obj\Debug\Tabuadado6.csproj.AssemblyReference.cache
+C:\Users\2jdmtec\Desktop\Tabuadado6\Tabuadado6\obj\Debug\Tabuadado6.csproj.SuggestedBindingRedirects.cache
+C:\Users\2jdmtec\Desktop\Tabuadado6\Tabuadado6\obj\Debug\Tabuadado6.Form1.resources
+C:\Users\2jdmtec\Desktop\Tabuadado6\Tabuadado6\obj\Debug\Tabuadado6.FrmPosto.resources
+C:\Users\2jdmtec\Desktop\Tabuadado6\Tabuadado6\obj\Debug\Tabuadado6.Properties.Resources.resources
+C:\Users\2jdmtec\Desktop\Tabuadado6\Tabuadado6\obj\Debug\Tabuadado6.csproj.GenerateResource.cache
+C:\Users\2jdmtec\Desktop\Tabuadado6\Tabuadado6\obj\Debug\Tabuadado6.csproj.CoreCompileInputs.cache
