@@ -42,37 +42,37 @@
             // lblgas
             // 
             this.lblgas.AutoSize = true;
-            this.lblgas.Location = new System.Drawing.Point(28, 42);
+            this.lblgas.Location = new System.Drawing.Point(218, 138);
             this.lblgas.Name = "lblgas";
-            this.lblgas.Size = new System.Drawing.Size(188, 13);
+            this.lblgas.Size = new System.Drawing.Size(207, 13);
             this.lblgas.TabIndex = 0;
-            this.lblgas.Text = "Digite A para álcool e G para gasolina:";
+            this.lblgas.Text = "Escreva o tipo de gasolina que você quer:";
             // 
             // txtgas
             // 
-            this.txtgas.Location = new System.Drawing.Point(222, 42);
+            this.txtgas.Location = new System.Drawing.Point(431, 138);
             this.txtgas.Name = "txtgas";
-            this.txtgas.Size = new System.Drawing.Size(100, 20);
+            this.txtgas.Size = new System.Drawing.Size(332, 20);
             this.txtgas.TabIndex = 1;
             // 
             // txtquant
             // 
-            this.txtquant.Location = new System.Drawing.Point(222, 97);
+            this.txtquant.Location = new System.Drawing.Point(431, 193);
             this.txtquant.Name = "txtquant";
-            this.txtquant.Size = new System.Drawing.Size(100, 20);
+            this.txtquant.Size = new System.Drawing.Size(332, 20);
             this.txtquant.TabIndex = 2;
             // 
             // txtpreco
             // 
-            this.txtpreco.Location = new System.Drawing.Point(222, 157);
+            this.txtpreco.Location = new System.Drawing.Point(431, 253);
             this.txtpreco.Name = "txtpreco";
-            this.txtpreco.Size = new System.Drawing.Size(100, 20);
+            this.txtpreco.Size = new System.Drawing.Size(332, 20);
             this.txtpreco.TabIndex = 3;
             // 
             // lblquant
             // 
             this.lblquant.AutoSize = true;
-            this.lblquant.Location = new System.Drawing.Point(102, 100);
+            this.lblquant.Location = new System.Drawing.Point(311, 196);
             this.lblquant.Name = "lblquant";
             this.lblquant.Size = new System.Drawing.Size(114, 13);
             this.lblquant.TabIndex = 4;
@@ -82,7 +82,7 @@
             // lblpreco
             // 
             this.lblpreco.AutoSize = true;
-            this.lblpreco.Location = new System.Drawing.Point(125, 160);
+            this.lblpreco.Location = new System.Drawing.Point(334, 256);
             this.lblpreco.Name = "lblpreco";
             this.lblpreco.Size = new System.Drawing.Size(91, 13);
             this.lblpreco.TabIndex = 5;
@@ -90,9 +90,9 @@
             // 
             // btncalcular
             // 
-            this.btncalcular.Location = new System.Drawing.Point(118, 317);
+            this.btncalcular.Location = new System.Drawing.Point(212, 438);
             this.btncalcular.Name = "btncalcular";
-            this.btncalcular.Size = new System.Drawing.Size(98, 30);
+            this.btncalcular.Size = new System.Drawing.Size(167, 53);
             this.btncalcular.TabIndex = 6;
             this.btncalcular.Text = "Calcular";
             this.btncalcular.UseVisualStyleBackColor = true;
@@ -100,9 +100,9 @@
             // 
             // btnlimpar
             // 
-            this.btnlimpar.Location = new System.Drawing.Point(293, 317);
+            this.btnlimpar.Location = new System.Drawing.Point(496, 438);
             this.btnlimpar.Name = "btnlimpar";
-            this.btnlimpar.Size = new System.Drawing.Size(98, 30);
+            this.btnlimpar.Size = new System.Drawing.Size(167, 53);
             this.btnlimpar.TabIndex = 7;
             this.btnlimpar.Text = "Limpar";
             this.btnlimpar.UseVisualStyleBackColor = true;
@@ -110,9 +110,9 @@
             // 
             // btnvoltar
             // 
-            this.btnvoltar.Location = new System.Drawing.Point(469, 317);
+            this.btnvoltar.Location = new System.Drawing.Point(791, 438);
             this.btnvoltar.Name = "btnvoltar";
-            this.btnvoltar.Size = new System.Drawing.Size(98, 30);
+            this.btnvoltar.Size = new System.Drawing.Size(167, 53);
             this.btnvoltar.TabIndex = 8;
             this.btnvoltar.Text = "Voltar";
             this.btnvoltar.UseVisualStyleBackColor = true;
@@ -123,7 +123,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Info;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1204, 645);
             this.Controls.Add(this.btnvoltar);
             this.Controls.Add(this.btnlimpar);
             this.Controls.Add(this.btncalcular);
@@ -135,6 +135,7 @@
             this.Controls.Add(this.lblgas);
             this.Name = "FrmPosto";
             this.Text = "Posto de Gasolina";
+            this.Load += new System.EventHandler(this.FrmPosto_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

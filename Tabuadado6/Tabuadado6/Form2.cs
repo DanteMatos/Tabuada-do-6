@@ -26,9 +26,9 @@ namespace Tabuadado6
         {
             double quant, preco;
             char gas;
+
             gas = Convert.ToChar(txtgas.Text);
             quant = Convert.ToDouble(txtquant.Text);
-
 
             if (gas == 'A')
             {
@@ -42,6 +42,9 @@ namespace Tabuadado6
                     preco = (20 * quant) * 4 / 100;
                 else
                     preco = (20 * quant) * 6 / 100;
+
+          
+
         }
 
         private void btnlimpar_Click(object sender, EventArgs e)
@@ -54,8 +57,13 @@ namespace Tabuadado6
         private void btnvoltar_Click(object sender, EventArgs e)
         {
             this.Hide();
-            FrmPosto frm = new FrmPosto();
-            Form1.Show();
+            Form1 frm = new Form1();
+            frm.Show();
+        }
+
+        private void FrmPosto_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

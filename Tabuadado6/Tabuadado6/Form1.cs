@@ -17,11 +17,23 @@ namespace Tabuadado6
             InitializeComponent();
         }
 
-        private void exercícioTabuadaToolStripMenuItem_Click(object sender, EventArgs e)
+        private void exercícioTabuada6ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form1 frm = new Form1();
-            FrmPosto.Show();
+            FrmPosto frm = new FrmPosto();
+            frm.Show();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void exercícioTabuada6ToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Frm3 frm = new Frm3();
+            frm.Show();
         }
     }
 }
