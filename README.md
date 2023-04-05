@@ -4,7 +4,6 @@ Tabuada do 6 com comandos de looping
 <!DOCTYPE HTML>
 <html lang="pt-br">
 <head>
-  <Title> Exercícios </title>
   <meta name= "description" content="Exercícios passados em aula"/>
   <meta charset="UTF-8"/>
  </head>
