@@ -1,5 +1,5 @@
 algoritmo "Posto de Gasolina"
-// Autor : Guilherme Matos de Oliveira e Bryan Henrique Rocha Gomes
+// Autor : Guilherme Matos de Oliveira e Bryan Henrique Gomes Rocha
 // Data : 08/03/2023
 // Seção de Declarações 
 var
